@@ -3,13 +3,8 @@
 #include <stdio.h>
 #include <sys/types.h>
 #include <sys/file.h>
-#include <fcntl.h>
 #include <sys/param.h>
-#ifdef SOLARIS
-#include "dirent.h"
-#else
 #include <sys/dir.h>
-#endif
 #include <sys/stat.h>
 
 #ifndef MAXBSIZE
